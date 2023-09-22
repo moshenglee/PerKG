@@ -1,0 +1,9 @@
+8
+CONTAIN   0
+BEING   1
+IMPLY   2
+NEED   3
+USE   4
+USES   5
+lackOf   6
+OPPOSITE   7
