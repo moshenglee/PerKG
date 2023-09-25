@@ -535,7 +535,7 @@ def delete_user_similar(dataset='youtube'):
     elif dataset == 'my':
         node_person_type = 'MyUser'
 
-    graph = Graph('http://10.112.170.242:7477', username='neo4j', password='962464')
+    graph = Graph('http://dddd', username='neo4j', password='ddd')
     graph.run('match (m:{}) - [r] -> (p:{}) delete r'.format(node_person_type, node_person_type))
 
 
